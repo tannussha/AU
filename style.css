@@ -1,0 +1,123 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none ;
+}
+
+.welcome{
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+    margin-top: 0;
+}
+
+.header_list{
+    padding: 0;
+    display: flex;
+    gap: 5px;
+}
+.header_logo{
+    width: 62px;
+   
+}
+
+.person{
+    margin: 40px;
+}
+.header_navigation{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px;
+    font-size: 20px;
+}
+.title{
+    
+    display: grid;
+    align-items: center;
+    text-align: left;
+    margin-left: 40px;
+}
+.title h1{
+    margin: 40px;
+font-size: 48px;
+color: white;
+}
+.title h2{
+    margin: 40px;
+    font-size: 28px;
+    margin-top: -30px;
+    }
+.button{
+    margin: 40px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 212px;
+    height: 47px;
+    font-size: 15px;
+    color: white;
+    border-radius: 40px;
+    background-color: rgba(173, 150, 67, 1);
+    cursor: pointer;
+    padding: 10px 40px;
+    border: none;
+}
+
+.flex{
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+background-color: white;
+   width: 40%;
+   margin: 20px;
+   border-radius: 15px;
+   align-items: center;
+}
+.container h2{
+    color: rgb(0, 0, 160);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.container h3{
+    color: rgb(0, 0, 160);
+    text-align: center;
+    margin-top: -30px;
+    font-size: 28px;
+}
+.container p{
+    font-family: sans-serif;
+color: rgb(126, 126, 126);
+text-align: justify;
+margin: 20px;
+margin-bottom: 40px;
+}
+.container img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
